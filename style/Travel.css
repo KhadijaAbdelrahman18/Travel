@@ -1,0 +1,258 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+}
+ html{
+    width: 100%;
+}
+.bg {
+    background-image: url("https://images.pexels.com/photos/29007474/pexels-photo-29007474/free-photo-of-aerial-view-of-vibrant-thai-lagoon-with-boats.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 40em;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    background-color: rgba(0, 0, 0, 0.226);
+}
+.leftheader{
+    margin-left: 20px;
+}
+.leftheader a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 3em;
+}
+.middelheader{
+    width: 40%;
+    display: flex;
+    margin-left: 10px;
+
+}
+#ulheader {
+    list-style: none;
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+}
+#ulheader li {
+    padding-left: 20px;
+    font-size: 20px;
+
+}
+#ulheader a{
+    text-decoration: none;
+    color:whitesmoke;
+}
+.rightheader{
+    margin-right: 20px;
+}
+.rightheader::after{
+    content: '';
+    background: whitesmoke;
+    width: 280px;
+    height: 2px;
+    border-radius: 3px;
+    position: absolute;
+    /* bottom: -10px; */
+    left: 78%;
+    transform: translateX(-5%);
+}
+.bg h1{
+    margin: auto;
+    font-size: 4em;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 80px;
+    width: 900px;
+    text-shadow: 2px 2px 4px #000000;
+}
+.table{
+    width: 1100px;
+    height: 80px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    margin-left: 150px;
+    margin-top: 40px;
+    justify-items: center;
+    align-items: center;
+}
+.table table{
+    width: 1000px;
+    padding: 10px;
+}
+.table td{
+    color: rgb(68, 68, 68);
+}
+td b{
+    color: black;
+}
+td button{
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    color: whitesmoke;
+    background-color: rgb(153, 6, 6);
+}
+.table2{
+    width: 900px;
+    height: 230px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    margin-left: 250px;
+    margin-top: 90px;
+    justify-items: center;
+    align-items: center;
+    box-shadow: 10px 10px 10px 7px black;
+}
+.table2 table{
+    width: 600px;
+    padding: 40px;
+    font-size: small;
+}
+.table2 table td{
+    text-align: center;
+
+}
+.table2 table td i{
+    font-size: 3em;
+    padding: 10px;
+}
+.sec2{
+    height: 30em;
+}
+.sec2 h1{
+    margin: auto;
+    font-size: 4em;
+    color: #192c48;
+    text-align: center;
+    margin-top: 180px;
+    width: 900px;
+    text-shadow: 2px 2px 4px #000000;
+}
+.table3{
+    width: 900px;
+    height: 230px;
+    background-color: white;
+    /* border-radius: 10px; */
+    margin-left: 250px;
+    margin-top: 40px;
+    justify-items: center;
+    align-items: center;
+    /* box-shadow: 10px 10px 10px 7px black; */
+}
+.table3 table{
+    width: 600px;
+    padding: 10px;
+    font-size: small;
+}
+.table3 table td{
+    text-align: center;
+    color: #192c48;
+    padding: 40px;
+    font-size: larger;
+
+
+
+
+}
+.table3 table td i{
+    font-size: 4em;
+    padding: 10px;
+    color: #f23739;
+}
+
+.cards{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    
+    width: 25%;
+    background-color: rgb(252, 249, 249);
+    /* justify-items: center; */
+    border:2px solid rgb(196, 193, 193);
+    border-radius: 10px;
+    margin:  5px;
+    box-shadow: 4px 4px 4px 4px rgb(196, 193, 193);
+
+
+}
+
+img{
+    margin-left: 13px;
+    margin-top: 13px;
+    border-radius: 15px;
+    width: 300px;
+    height: 200px;
+}
+.card h5{
+    /* justify-content: start; */
+    padding-bottom: 5px;
+    padding-right: 160px;
+    margin-left: 13px;
+    font-weight: 900;
+    color: #192c48;
+    display: inline;
+
+
+}
+.card p{
+    color: #192c48;
+    padding-right: 170px;
+    padding-bottom: 3px;
+
+    display: inline;
+    font-size: small;
+    margin-left: 13px;
+
+
+}
+.checked {
+    color: orange;
+    justify-content: end;
+  }
+button{
+    color: white;
+    background-color: #f23739;
+    
+    border-radius: 0px 0px 10px 10px;
+    width: 331.75px;
+    height: 100px;
+    /* margin-bottom: 10px; */
+    outline: none;
+    border: none;
+    font-size: larger;
+    display: none;
+    box-shadow: 5px 5px 5px 5px rgb(196, 193, 193);
+    cursor: pointer;
+
+}
+
+.sec3 h1{
+    margin: auto;
+    font-size: 4em;
+    color: #192c48;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    width: 900px;
+    text-shadow: 2px 2px 4px #000000;
+}
+.sec3 button i{
+    margin-left: 10px;
+}
+.sec3 p i{
+    padding-right: 5px;
+    color: #f23739;
+
+}
+.sec4{
+    /* width: 100%; */
+    height: 700px;
+}
